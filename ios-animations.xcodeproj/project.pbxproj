@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2E45F6EE23F6462E00BAA1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F6ED23F6462E00BAA1BD /* AppDelegate.swift */; };
-		2E45F6F023F6462E00BAA1BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F6EF23F6462E00BAA1BD /* SceneDelegate.swift */; };
 		2E45F6F223F6462E00BAA1BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F6F123F6462E00BAA1BD /* ViewController.swift */; };
 		2E45F6F523F6462E00BAA1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E45F6F323F6462E00BAA1BD /* Main.storyboard */; };
 		2E45F6F723F6463000BAA1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E45F6F623F6463000BAA1BD /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		2E45F6EA23F6462E00BAA1BD /* ios-animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E45F6ED23F6462E00BAA1BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E45F6EF23F6462E00BAA1BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E45F6F123F6462E00BAA1BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E45F6F423F6462E00BAA1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E45F6F623F6463000BAA1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +47,7 @@
 		2E45F70B23F6463000BAA1BD /* ios-animationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-animationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E45F70F23F6463000BAA1BD /* ios_animationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_animationsUITests.swift; sourceTree = "<group>"; };
 		2E45F71123F6463000BAA1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E45F71D23F6464000BAA1BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +99,12 @@
 			isa = PBXGroup;
 			children = (
 				2E45F6ED23F6462E00BAA1BD /* AppDelegate.swift */,
-				2E45F6EF23F6462E00BAA1BD /* SceneDelegate.swift */,
 				2E45F6F123F6462E00BAA1BD /* ViewController.swift */,
 				2E45F6F323F6462E00BAA1BD /* Main.storyboard */,
 				2E45F6F623F6463000BAA1BD /* Assets.xcassets */,
 				2E45F6F823F6463000BAA1BD /* LaunchScreen.storyboard */,
 				2E45F6FB23F6463000BAA1BD /* Info.plist */,
+				2E45F71D23F6464000BAA1BD /* README.md */,
 			);
 			path = "ios-animations";
 			sourceTree = "<group>";
@@ -261,7 +260,6 @@
 			files = (
 				2E45F6F223F6462E00BAA1BD /* ViewController.swift in Sources */,
 				2E45F6EE23F6462E00BAA1BD /* AppDelegate.swift in Sources */,
-				2E45F6F023F6462E00BAA1BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
