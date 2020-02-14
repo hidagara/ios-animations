@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     layout.sectionInset = UIEdgeInsets(top: 5, left: 10, bottom: 5, right: 10)
     collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
     collectionView.dataSource = self
+    collectionView.delegate = self
     self.view.addSubview(collectionView)
     collectionView.translatesAutoresizingMaskIntoConstraints = false
     collectionView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
@@ -51,7 +52,7 @@ class ViewController: UIViewController {
     collectionViewWidthConstraint.isActive = true
   }
 }
-
+// MARK: UICollectionViewDataSources
 extension ViewController: UICollectionViewDataSource {
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! AnimationCollectionViewCell
@@ -63,6 +64,14 @@ extension ViewController: UICollectionViewDataSource {
     return animationList.count
   }
 }
+
+// MARK: UICollectionViewDelegate
+extension ViewController: UICollectionViewDelegate {
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    collectionView.deselectItem(at: indexPath, animated: true)
+  }
+}
+
 
 class AnimationCollectionViewCell: UICollectionViewCell {
   var nameLabel: UILabel!

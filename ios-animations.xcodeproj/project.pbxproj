@@ -14,6 +14,25 @@
 		2E45F6FA23F6463000BAA1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E45F6F823F6463000BAA1BD /* LaunchScreen.storyboard */; };
 		2E45F70523F6463000BAA1BD /* ios_animationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F70423F6463000BAA1BD /* ios_animationsTests.swift */; };
 		2E45F71023F6463000BAA1BD /* ios_animationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F70F23F6463000BAA1BD /* ios_animationsUITests.swift */; };
+		2E45F71F23F6A3E300BAA1BD /* MoveViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F71E23F6A3E300BAA1BD /* MoveViewsViewController.swift */; };
+		2E45F7BC23F74BBB00BAA1BD /* TransformsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7BB23F74BBB00BAA1BD /* TransformsViewController.swift */; };
+		2E45F7BF23F74C1E00BAA1BD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7BE23F74C1E00BAA1BD /* Router.swift */; };
+		2E45F7C123F74DA200BAA1BD /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7C023F74DA200BAA1BD /* Animator.swift */; };
+		2E45F7C423F74DC100BAA1BD /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7C323F74DC100BAA1BD /* ModalTransition.swift */; };
+		2E45F7C623F74E0500BAA1BD /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7C523F74E0500BAA1BD /* Transition.swift */; };
+		2E45F7C823F74E4300BAA1BD /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7C723F74E4300BAA1BD /* PushTransition.swift */; };
+		2E45F7CA23F74F2800BAA1BD /* FadeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7C923F74F2800BAA1BD /* FadeAnimator.swift */; };
+		2E45F7CD23F7503E00BAA1BD /* MainModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7CC23F7503E00BAA1BD /* MainModuleBuilder.swift */; };
+		2E45F7CF23F7506000BAA1BD /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7CE23F7506000BAA1BD /* MainRouter.swift */; };
+		2E45F7D123F750B400BAA1BD /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7D023F750B400BAA1BD /* MainViewModel.swift */; };
+		2E45F7D423F7511A00BAA1BD /* SettingsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7D323F7511A00BAA1BD /* SettingsModule.swift */; };
+		2E45F7D623F7513400BAA1BD /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7D523F7513400BAA1BD /* SettingsRouter.swift */; };
+		2E45F7D823F7514F00BAA1BD /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7D723F7514F00BAA1BD /* SettingsViewModel.swift */; };
+		2E45F7DA23F7516800BAA1BD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7D923F7516800BAA1BD /* SettingsViewController.swift */; };
+		2E45F7DF23F7523500BAA1BD /* SettingsRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7DE23F7523500BAA1BD /* SettingsRoute.swift */; };
+		2E45F7E123F7526800BAA1BD /* NoInternetConnectionRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7E023F7526800BAA1BD /* NoInternetConnectionRoute.swift */; };
+		2E45F7E323F7528600BAA1BD /* AppSettingsRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7E223F7528600BAA1BD /* AppSettingsRoute.swift */; };
+		2E45F7E523F7534D00BAA1BD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F7E423F7534D00BAA1BD /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +67,25 @@
 		2E45F70F23F6463000BAA1BD /* ios_animationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_animationsUITests.swift; sourceTree = "<group>"; };
 		2E45F71123F6463000BAA1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E45F71D23F6464000BAA1BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2E45F71E23F6A3E300BAA1BD /* MoveViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewsViewController.swift; sourceTree = "<group>"; };
+		2E45F7BB23F74BBB00BAA1BD /* TransformsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformsViewController.swift; sourceTree = "<group>"; };
+		2E45F7BE23F74C1E00BAA1BD /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2E45F7C023F74DA200BAA1BD /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		2E45F7C323F74DC100BAA1BD /* ModalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		2E45F7C523F74E0500BAA1BD /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		2E45F7C723F74E4300BAA1BD /* PushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		2E45F7C923F74F2800BAA1BD /* FadeAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAnimator.swift; sourceTree = "<group>"; };
+		2E45F7CC23F7503E00BAA1BD /* MainModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleBuilder.swift; sourceTree = "<group>"; };
+		2E45F7CE23F7506000BAA1BD /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		2E45F7D023F750B400BAA1BD /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		2E45F7D323F7511A00BAA1BD /* SettingsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModule.swift; sourceTree = "<group>"; };
+		2E45F7D523F7513400BAA1BD /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		2E45F7D723F7514F00BAA1BD /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		2E45F7D923F7516800BAA1BD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2E45F7DE23F7523500BAA1BD /* SettingsRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRoute.swift; sourceTree = "<group>"; };
+		2E45F7E023F7526800BAA1BD /* NoInternetConnectionRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetConnectionRoute.swift; sourceTree = "<group>"; };
+		2E45F7E223F7528600BAA1BD /* AppSettingsRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsRoute.swift; sourceTree = "<group>"; };
+		2E45F7E423F7534D00BAA1BD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +116,7 @@
 		2E45F6E123F6462E00BAA1BD = {
 			isa = PBXGroup;
 			children = (
+				2E45F6F123F6462E00BAA1BD /* ViewController.swift */,
 				2E45F71D23F6464000BAA1BD /* README.md */,
 				2E45F6EC23F6462E00BAA1BD /* ios-animations */,
 				2E45F70323F6463000BAA1BD /* ios-animationsTests */,
@@ -99,8 +138,11 @@
 		2E45F6EC23F6462E00BAA1BD /* ios-animations */ = {
 			isa = PBXGroup;
 			children = (
+				2E45F7D223F750C300BAA1BD /* SettingsModule */,
+				2E45F7CB23F74F5100BAA1BD /* MainModule */,
+				2E45F7BD23F74C1100BAA1BD /* Routing */,
+				2E45F7BA23F74BA100BAA1BD /* Views */,
 				2E45F6ED23F6462E00BAA1BD /* AppDelegate.swift */,
-				2E45F6F123F6462E00BAA1BD /* ViewController.swift */,
 				2E45F6F323F6462E00BAA1BD /* Main.storyboard */,
 				2E45F6F623F6463000BAA1BD /* Assets.xcassets */,
 				2E45F6F823F6463000BAA1BD /* LaunchScreen.storyboard */,
@@ -125,6 +167,69 @@
 				2E45F71123F6463000BAA1BD /* Info.plist */,
 			);
 			path = "ios-animationsUITests";
+			sourceTree = "<group>";
+		};
+		2E45F7BA23F74BA100BAA1BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E45F71E23F6A3E300BAA1BD /* MoveViewsViewController.swift */,
+				2E45F7BB23F74BBB00BAA1BD /* TransformsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E45F7BD23F74C1100BAA1BD /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2E45F7DD23F7522900BAA1BD /* Routes */,
+				2E45F7C223F74DB000BAA1BD /* Transitions */,
+				2E45F7BE23F74C1E00BAA1BD /* Router.swift */,
+				2E45F7C023F74DA200BAA1BD /* Animator.swift */,
+				2E45F7C923F74F2800BAA1BD /* FadeAnimator.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		2E45F7C223F74DB000BAA1BD /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				2E45F7C323F74DC100BAA1BD /* ModalTransition.swift */,
+				2E45F7C523F74E0500BAA1BD /* Transition.swift */,
+				2E45F7C723F74E4300BAA1BD /* PushTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		2E45F7CB23F74F5100BAA1BD /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				2E45F7E423F7534D00BAA1BD /* MainViewController.swift */,
+				2E45F7CC23F7503E00BAA1BD /* MainModuleBuilder.swift */,
+				2E45F7CE23F7506000BAA1BD /* MainRouter.swift */,
+				2E45F7D023F750B400BAA1BD /* MainViewModel.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		2E45F7D223F750C300BAA1BD /* SettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				2E45F7D323F7511A00BAA1BD /* SettingsModule.swift */,
+				2E45F7D523F7513400BAA1BD /* SettingsRouter.swift */,
+				2E45F7D723F7514F00BAA1BD /* SettingsViewModel.swift */,
+				2E45F7D923F7516800BAA1BD /* SettingsViewController.swift */,
+			);
+			path = SettingsModule;
+			sourceTree = "<group>";
+		};
+		2E45F7DD23F7522900BAA1BD /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				2E45F7DE23F7523500BAA1BD /* SettingsRoute.swift */,
+				2E45F7E023F7526800BAA1BD /* NoInternetConnectionRoute.swift */,
+				2E45F7E223F7528600BAA1BD /* AppSettingsRoute.swift */,
+			);
+			path = Routes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +363,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E45F7E523F7534D00BAA1BD /* MainViewController.swift in Sources */,
+				2E45F7CA23F74F2800BAA1BD /* FadeAnimator.swift in Sources */,
+				2E45F7C123F74DA200BAA1BD /* Animator.swift in Sources */,
+				2E45F71F23F6A3E300BAA1BD /* MoveViewsViewController.swift in Sources */,
+				2E45F7CD23F7503E00BAA1BD /* MainModuleBuilder.swift in Sources */,
 				2E45F6F223F6462E00BAA1BD /* ViewController.swift in Sources */,
+				2E45F7D123F750B400BAA1BD /* MainViewModel.swift in Sources */,
+				2E45F7CF23F7506000BAA1BD /* MainRouter.swift in Sources */,
+				2E45F7BF23F74C1E00BAA1BD /* Router.swift in Sources */,
 				2E45F6EE23F6462E00BAA1BD /* AppDelegate.swift in Sources */,
+				2E45F7D623F7513400BAA1BD /* SettingsRouter.swift in Sources */,
+				2E45F7E323F7528600BAA1BD /* AppSettingsRoute.swift in Sources */,
+				2E45F7C423F74DC100BAA1BD /* ModalTransition.swift in Sources */,
+				2E45F7C623F74E0500BAA1BD /* Transition.swift in Sources */,
+				2E45F7DF23F7523500BAA1BD /* SettingsRoute.swift in Sources */,
+				2E45F7DA23F7516800BAA1BD /* SettingsViewController.swift in Sources */,
+				2E45F7C823F74E4300BAA1BD /* PushTransition.swift in Sources */,
+				2E45F7D423F7511A00BAA1BD /* SettingsModule.swift in Sources */,
+				2E45F7E123F7526800BAA1BD /* NoInternetConnectionRoute.swift in Sources */,
+				2E45F7BC23F74BBB00BAA1BD /* TransformsViewController.swift in Sources */,
+				2E45F7D823F7514F00BAA1BD /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
