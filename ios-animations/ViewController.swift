@@ -12,16 +12,19 @@ struct AnimationInfo {
   let name: String
 }
 class ViewController: UIViewController {
+  var collectionViewWidthConstraint: NSLayoutConstraint!
   var collectionView: UICollectionView!
 
   var animationList = [AnimationInfo]()
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.view.translatesAutoresizingMaskIntoConstraints = false
-    // Do any additional setup after loading the view.
     animationList.append(AnimationInfo(name: "Move View Animations"))
+    animationList.append(AnimationInfo(name: "CGAffine Transformations"))
+    animationList.append(AnimationInfo(name: "Animate Transitions"))
+    animationList.append(AnimationInfo(name: "Some useful animations"))
     setupCollectionView()
+    
   }
 
   private func setupCollectionView() {
@@ -35,13 +38,18 @@ class ViewController: UIViewController {
     collectionView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
     collectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
     collectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 50).isActive = true
-    collectionView.widthAnchor.constraint(equalToConstant: view.frame.width).isActive = true
+    collectionViewWidthConstraint = collectionView.widthAnchor.constraint(equalToConstant: view.frame.width)
+    collectionViewWidthConstraint.isActive = true
     collectionView.register(AnimationCollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
-    collectionView.backgroundColor = .green
+    collectionView.backgroundColor = .white
   }
   
-  
-
+  override func viewWillLayoutSubviews() {
+    super.viewWillLayoutSubviews()
+    collectionViewWidthConstraint.isActive = false
+    collectionViewWidthConstraint =  collectionView.widthAnchor.constraint(equalToConstant: view.frame.width)
+    collectionViewWidthConstraint.isActive = true
+  }
 }
 
 extension ViewController: UICollectionViewDataSource {
@@ -70,6 +78,9 @@ class AnimationCollectionViewCell: UICollectionViewCell {
   private func setupCellView() {
     layer.cornerRadius = 8
     layer.backgroundColor = UIColor.white.cgColor
+    layer.shadowOffset = CGSize(width: 5, height: 5)
+    layer.shadowRadius = 5
+    layer.shadowOpacity = 0.3
     nameLabel = UILabel(frame: CGRect(x: 5, y: 5, width: 100, height: 50))
     nameLabel.translatesAutoresizingMaskIntoConstraints = false
    
