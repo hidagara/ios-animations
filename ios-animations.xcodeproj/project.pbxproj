@@ -78,6 +78,7 @@
 		2E45F6E123F6462E00BAA1BD = {
 			isa = PBXGroup;
 			children = (
+				2E45F71D23F6464000BAA1BD /* README.md */,
 				2E45F6EC23F6462E00BAA1BD /* ios-animations */,
 				2E45F70323F6463000BAA1BD /* ios-animationsTests */,
 				2E45F70E23F6463000BAA1BD /* ios-animationsUITests */,
@@ -104,7 +105,6 @@
 				2E45F6F623F6463000BAA1BD /* Assets.xcassets */,
 				2E45F6F823F6463000BAA1BD /* LaunchScreen.storyboard */,
 				2E45F6FB23F6463000BAA1BD /* Info.plist */,
-				2E45F71D23F6464000BAA1BD /* README.md */,
 			);
 			path = "ios-animations";
 			sourceTree = "<group>";
